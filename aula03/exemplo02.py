@@ -5,6 +5,6 @@ preco_unitario = float(preco_unitario)
 
 valor_disponivel = float(input("Valor disponível: "))
 quantidade = int(valor_disponivel // preco_unitario) #Operação de divisão que mostra apenas o numero inteiro(sem virgulas)
-troco = valor_disponivel % preco_unitario
+troco = valor_disponivel % preco_unitario            #Operação de divisão que resulta no resto de uma divisão inteira
 print(f"Quantidade de ingressos: {quantidade}")
 print(f"Troco de: R${troco}")
